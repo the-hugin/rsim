@@ -1,3 +1,17 @@
+# RSIm Contribution — 2026-03-13
+> exported via /rsim-export
+
+## Modified Skills (1)
+
+### skills/rsim-export/SKILL.md
+
+**Change:** Added Step 2.2 — Pre-flight personal data check
+
+Before packaging, rsim-export now scans collected skills for `scripts/`
+subdirectories and warns the user before including them in the export.
+Motivated by a real incident where OSINT scripts with personal data were
+nearly included in a public contribution.
+
 # Skill: rsim-export
 
 **Purpose:** Collect local RSIm skill improvements (skills/ + commands/) and publish to GitHub as a PR.
