@@ -1,0 +1,34 @@
+# RSIm — .gitignore
+# Never commit personal memory or session data
+
+# Personal memory (stays local)
+memory/episodic/hard-problems.md
+memory/episodic/best-practices.md
+memory/episodic/failures/*.md
+
+# Session data
+reflection*.md
+user-preferences.md
+
+# Sync state (local only)
+skills/sync-state.json
+
+# Cache directories
+.rsim-base-cache/
+.claude-backup-*/
+
+# Skill helper scripts (project-specific, may contain personal data)
+skills/web-scraper/scripts/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
