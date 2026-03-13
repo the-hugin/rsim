@@ -180,4 +180,8 @@ For the full technical treatment — limitations, related work, architectural de
 
 ---
 
+## Support 
+EVM: 0x78009F703F9f8fB93df844Ff0cD8176fAbE6692c
+
+---
 *RSIm v1.0 — 2026*
